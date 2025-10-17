@@ -6,7 +6,7 @@ import Register from "./components/Register";
 import Login from "./components/Login";
 import Dashboard from "./components/Dashboard";
 
-export const serverUrl = "http://localhost:5000"
+export const serverUrl = import.meta.env.VITE_SERVER_URL;
 
 function App() {
   return (
